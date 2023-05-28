@@ -19,11 +19,13 @@ Based on the fitness score, a percentage of the population will be selected for 
 The crossover step is the most related to biological reproduction. The chromosomes selected from the previous generation are mixed, two-by-two, to generate new chromosomes called children. These new chromosomes contain some elements from their two parents.
 New chromosomes are generated until the population is complete (population number reaches). The bigger is the crossover rate, the fewer new chromosomes are generated.
 
-![3-s2 0-B9780128096338204627-f20462-06-9780128114148](https://github.com/et-taoudi/GeneticAlgo/assets/79162585/6cfd047f-fbe6-43b8-a6b3-5eeed7055a13)
+![Crossover](https://github.com/et-taoudi/GeneticAlgo/assets/79162585/d395cd7b-9453-411e-8378-2637f16eaa71)
 ![13-Figure2-1](https://github.com/et-taoudi/GeneticAlgo/assets/79162585/54dc8af4-7d93-4853-aa71-9b7c943702d1)
 ## Mutation
 The mutation step mimics the mutation during genetic reproduction. Each chromosome has a probability to mutate. If a mutation occurs, a random gene in the chromosome will be changed to another random value. The mutation rate is another important parameter: it represents the probability that a chromosome mutates.
 This step is very important to obtain good results. Indeed, a Genetic Algorithm can be stuck in a local minimum (maximum). The mutation is a "jump" to another point in the solution space.
+
+![local_min](https://github.com/et-taoudi/GeneticAlgo/assets/79162585/350d2fc7-a638-4efc-bfa4-f0271848d6db)
 ## Implementation using SMA with Island
 ![Capture d'écran 2023-05-27 161537](https://github.com/et-taoudi/GeneticAlgo/assets/79162585/55c8cc6f-cd18-4aa3-93c1-93168cdfc804)
 ![Capture d'écran 2023-05-26 182927](https://github.com/et-taoudi/GeneticAlgo/assets/79162585/4f289b86-135f-42ab-a64f-6efa21d52573)
