@@ -18,6 +18,7 @@ Based on the fitness score, a percentage of the population will be selected for 
 ## Crossover
 The crossover step is the most related to biological reproduction. The chromosomes selected from the previous generation are mixed, two-by-two, to generate new chromosomes called children. These new chromosomes contain some elements from their two parents.
 New chromosomes are generated until the population is complete (population number reaches). The bigger is the crossover rate, the fewer new chromosomes are generated.
+
 ![13-Figure2-1](https://github.com/et-taoudi/GeneticAlgo/assets/79162585/54dc8af4-7d93-4853-aa71-9b7c943702d1)
 ## Mutation
 The mutation step mimics the mutation during genetic reproduction. Each chromosome has a probability to mutate. If a mutation occurs, a random gene in the chromosome will be changed to another random value. The mutation rate is another important parameter: it represents the probability that a chromosome mutates.
