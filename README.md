@@ -7,4 +7,4 @@ A Genetic Algorithm is an evolutive process that maintains a population of chrom
 3- Selection<br>
 4- Crossover<br>
 5- Mutation<br>
-!(https://cylab.be/storage/blog/172/files/Mjmxx5pGCh4mMjKC/2021-09-08_11-02.png)
+![](https://cylab.be/storage/blog/172/files/Mjmxx5pGCh4mMjKC/2021-09-08_11-02.png)
