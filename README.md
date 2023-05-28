@@ -10,7 +10,7 @@ The following are some of the basic terminologies that can help you to understan
 - Fitness function: This is a function that uses a specific input to produce an improved output. The solution is used as the input while the output is in the form of solution suitability.
 - Genetic operators: In genetic algorithms, the best individuals mate to reproduce an offspring that is better than the parents. Genetic operators are used for changing the genetic composition of this next generation.
 ## Genetic Algorithm Structure
-A Genetic Algorithm is an evolutive process that maintains a population of chromosomes (potential solutions). Each chromosome is composed of several characteristics called genes. The all process has 5 main steps:
+A Genetic Algorithm is an evolutive process that maintains a population of chromosomes (potential solutions). Each chromosome is composed of several characteristics called genes. The all process has 5 main steps:<br>
 1- Initial population generation<br>
 2- Fitness score evaluation<br>
 3- Selection<br>
