@@ -20,4 +20,4 @@ Based on the fitness score, a percentage of the population will be selected for 
 ## Crossover
 The crossover step is the most related to biological reproduction. The chromosomes selected from the previous generation are mixed, two-by-two, to generate new chromosomes called children. These new chromosomes contain some elements from their two parents.
 New chromosomes are generated until the population is complete (population number reaches). The bigger is the crossover rate, the fewer new chromosomes are generated.
-![]([https://cylab.be/storage/blog/172/files/Mjmxx5pGCh4mMjKC/2021-09-08_11-02.png](https://d3i71xaburhd42.cloudfront.net/73a50124700c7b2e44e3a72a298f6279a8b54ac3/13-Figure2-1.png))
+![](https://d3i71xaburhd42.cloudfront.net/73a50124700c7b2e44e3a72a298f6279a8b54ac3/13-Figure2-1.png)
