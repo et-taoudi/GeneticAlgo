@@ -1,5 +1,4 @@
 # Genetic Algorithm
-![](https://media.licdn.com/dms/image/C4E12AQFar-fwzfjnQQ/article-cover_image-shrink_600_2000/0/1622204556897?e=2147483647&v=beta&t=AHO5dNokX06p00UOSVwlefRmnWwSNrO7jwyBse8lpy0)
 ## Genetic Algorithm Structure
 A Genetic Algorithm is an evolutive process that maintains a population of chromosomes (potential solutions). Each chromosome is composed of several characteristics called genes. The all process has 5 main steps:
 
