@@ -24,5 +24,6 @@ New chromosomes are generated until the population is complete (population numbe
 The mutation step mimics the mutation during genetic reproduction. Each chromosome has a probability to mutate. If a mutation occurs, a random gene in the chromosome will be changed to another random value. The mutation rate is another important parameter: it represents the probability that a chromosome mutates.
 This step is very important to obtain good results. Indeed, a Genetic Algorithm can be stuck in a local minimum (maximum). The mutation is a "jump" to another point in the solution space.
 ## Implementation using SMA with Island
+![Capture d'écran 2023-05-27 161537](https://github.com/et-taoudi/GeneticAlgo/assets/79162585/55c8cc6f-cd18-4aa3-93c1-93168cdfc804)
 ![Capture d'écran 2023-05-26 182927](https://github.com/et-taoudi/GeneticAlgo/assets/79162585/4f289b86-135f-42ab-a64f-6efa21d52573)
 
