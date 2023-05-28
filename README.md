@@ -8,3 +8,4 @@ A Genetic Algorithm is an evolutive process that maintains a population of chrom
 4- Crossover<br>
 5- Mutation<br>
 ![](https://cylab.be/storage/blog/172/files/Mjmxx5pGCh4mMjKC/2021-09-08_11-02.png)
+The fitness score evaluation, selection, crossover and mutation will be repeated until a stop condition. This condition can be a specific number of iterations (called generation) or a threshold reached (satisfying result).
