@@ -26,4 +26,19 @@ This step is very important to obtain good results. Indeed, a Genetic Algorithm 
 ## Implementation using SMA with Island Agent
 ![Capture d'écran 2023-05-27 161537](https://github.com/et-taoudi/GeneticAlgo/assets/79162585/55c8cc6f-cd18-4aa3-93c1-93168cdfc804)<br>
 ![Capture d'écran 2023-05-26 182927](https://github.com/et-taoudi/GeneticAlgo/assets/79162585/4f289b86-135f-42ab-a64f-6efa21d52573)
+## Advantages of GAs
+GAs have various advantages which have made them immensely popular.
+- Does not require any derivative information (which may not be available for many real-world problems).
+- Is faster and more efficient as compared to the traditional methods.
+- Has very good parallel capabilities.
+- Optimizes both continuous and discrete functions and also multi-objective problems.
+- Provides a list of “good” solutions and not just a single solution.
+- Always gets an answer to the problem, which gets better over the time.
+- Useful when the search space is very large and there are a large number of parameters involved.
+## Limitations of GAs
+Like any technique, GAs also suffer from a few limitations.
+- GAs are not suited for all problems, especially problems which are simple and for which derivative information is available.
+- Fitness value is calculated repeatedly which might be computationally expensive for some problems.
+- Being stochastic, there are no guarantees on the optimality or the quality of the solution.
+- If not implemented properly, the GA may not converge to the optimal solution.
 
