@@ -33,6 +33,10 @@ New chromosomes are generated until the population is complete (population numbe
 The mutation step mimics the mutation during genetic reproduction. Each chromosome has a probability to mutate. If a mutation occurs, a random gene in the chromosome will be changed to another random value. The mutation rate is another important parameter: it represents the probability that a chromosome mutates.
 This step is very important to obtain good results. Indeed, a Genetic Algorithm can be stuck in a local minimum (maximum). The mutation is a "jump" to another point in the solution space.<br>
 ![Chromosomes-genetic-arrangement-selection-crossover-and-mutation-procedures-in-the](https://github.com/et-taoudi/GeneticAlgo/assets/79162585/72a6a949-442a-40f1-aa45-5de3b9b7ab54)
+## Replacement
+Generational replacement takes place in this phase, which is a replacement of the old population with the new child population. The new population consists of higher fitness scores than the old population, which is an indication that an improved solution has been generated.
+## Termination
+After replacement has been done, a stopping criterion is used to provide the basis for termination. The algorithm will terminate after the threshold fitness solution has been attained. It will identify this solution as the best solution in the population.
 ## Implementation using SMA with Island Agent
 ![Capture d'écran 2023-05-27 161537](https://github.com/et-taoudi/GeneticAlgo/assets/79162585/55c8cc6f-cd18-4aa3-93c1-93168cdfc804)<br>
 ![Capture d'écran 2023-05-26 182927](https://github.com/et-taoudi/GeneticAlgo/assets/79162585/4f289b86-135f-42ab-a64f-6efa21d52573)
