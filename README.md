@@ -1,6 +1,14 @@
 # Genetic Algorithm
 Nature has always been a great source of inspiration to all mankind. Genetic Algorithms (GAs) are search based algorithms based on the concepts of natural selection and genetics. GAs are a subset of a much larger branch of computation known as Evolutionary Computation.
 GAs were developed by John Holland and his students and colleagues at the University of Michigan, most notably David E. Goldberg and has since been tried on various optimization problems with a high degree of success.
+## Vocabulary
+The following are some of the basic terminologies that can help you to understand genetic algorithms:
+- Population: This is a subset of all the probable solutions that can solve the given problem.
+- Chromosomes: A chromosome is one of the solutions in the population.
+- Gene: This is an element in a chromosome.
+- Allele: This is the value given to a gene in a specific chromosome.
+- Fitness function: This is a function that uses a specific input to produce an improved output. The solution is used as the input while the output is in the form of solution suitability.
+- Genetic operators: In genetic algorithms, the best individuals mate to reproduce an offspring that is better than the parents. Genetic operators are used for changing the genetic composition of this next generation.
 ## Genetic Algorithm Structure
 A Genetic Algorithm is an evolutive process that maintains a population of chromosomes (potential solutions). Each chromosome is composed of several characteristics called genes. The all process has 5 main steps:
 1- Initial population generation<br>
